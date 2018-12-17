@@ -4,6 +4,6 @@
 - [kind.py](https://github.com/geyixin/tianchengcup/blob/master/code/kind_get.py)：为了获得训练和预测中，就transaction和operation数据而言，某些特征的总出现情况；
 - [delete_phone_row.py](https://github.com/geyixin/tianchengcup/blob/master/code/delete_phone_row.py)：我觉得黑户会不会有iPhone和安卓用户的区别；
 - [data_process.py](https://github.com/geyixin/tianchengcup/blob/master/code/data_process.py)：将数据处理成适合训练的数据，比如特征的数字化等；
-- [data_analysis_lightgbm.py](https://github.com/geyixin/tianchengcup/blob/master/code/data_analysis_lightgbm.py)：分别训练transaction和operation数据；
+- [data_analysis_lightgbm.py](https://github.com/geyixin/tianchengcup/blob/master/code/data_analysis_lightgbm.py)：lgb分别训练transaction和operation数据；
 - [merge_predict.py](https://github.com/geyixin/tianchengcup/blob/master/code/merge_predict.py)：把分别训练的数据合在一起。由于提交发现operation的预测不是很准确，我采取的策略是从operation预测结果中取transaction预测结果中的数据
 - 不要谈名次，受伤。。。。 :cry:

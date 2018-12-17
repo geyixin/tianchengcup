@@ -1,1 +1,0 @@
-kind_get.py——>data_process.py——>data_analysis_xxx——>merge_predict.py
